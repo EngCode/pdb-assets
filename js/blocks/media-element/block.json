@@ -1,0 +1,62 @@
+{
+  "apiVersion": 2,
+  "name": "phenix/media-element",
+  "version": "1.0.0",
+  "title": "Multimedia",
+  "category": "design",
+  "description": "",
+  "supports": {
+    "html": false,
+    "__experimentalOnEnter": true,
+    "__experimentalMetadata": true
+  },
+  "attributes": {
+    "main": {
+      "type": "string",
+      "default": "px-media"
+    },
+    "setting": {
+      "type": "object",
+      "default": {}
+    },
+    "typography": {
+      "type": "object",
+      "default": {}
+    },
+    "style": {
+      "type": "object",
+      "default": {}
+    },
+    "responsive": {
+      "type": "object",
+      "default": {}
+    },
+    "url": {
+      "type": "string",
+      "default": "#none"
+    },
+    "isLightBox": {
+      "type": "boolean",
+      "default": false
+    },
+    "lightbox_src": {
+      "type": "boolean",
+      "default": false
+    },
+    "lightbox_type": {
+      "type": "string",
+      "default": "image"
+    },
+    "preview": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "textdomain": "pds-blocks",
+  "editorScript": "file:./index.js"
+}
