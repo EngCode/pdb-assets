@@ -7,10 +7,18 @@
   "description": "",
   "supports": {
     "html": false,
+    "renaming": true,
     "__experimentalOnEnter": true,
-    "__experimentalMetadata": true
+    "__experimentalMetadata": true,
+    "interactivity": {
+      "clientNavigation": true
+    }
   },
   "attributes": {
+    "metadata": {
+      "type": "object",
+      "default": {}
+    },
     "type": {
       "type": "string",
       "default": "font"

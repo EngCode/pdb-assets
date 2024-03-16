@@ -7,14 +7,22 @@
   "description": "",
   "supports": {
     "html": false,
+    "renaming": true,
     "align": [
       "full"
     ],
     "alignWide": true,
     "__experimentalOnEnter": true,
-    "__experimentalMetadata": true
+    "__experimentalMetadata": true,
+    "interactivity": {
+      "clientNavigation": true
+    }
   },
   "attributes": {
+    "metadata": {
+      "type": "object",
+      "default": {}
+    },
     "preview": {
       "type": "boolean",
       "default": false
