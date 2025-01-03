@@ -3,7 +3,7 @@
   "name": "phenix/button",
   "version": "1.0.0",
   "title": "Button",
-  "category": "design",
+  "category": "phenix-blocks",
   "description": "",
   "supports": {
     "html": false,
@@ -17,6 +17,14 @@
     }
   },
   "attributes": {
+    "id": {
+      "type": "string",
+      "default": ""
+    },
+    "className": {
+      "type": "string",
+      "default": ""
+    },
     "metadata": {
       "type": "object",
       "default": {}
@@ -42,7 +50,7 @@
       "default": false
     },
     "label": {
-      "type": "string",
+      "type": "html",
       "default": "Button"
     },
     "url": {
