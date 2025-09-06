@@ -22,3 +22,6 @@
     font-style: normal;
     font-display: swap;
 }
+
+
+body {--primary-font: 'Ping AR + LT', sans-serif; --secondary-font: 'Ping AR + LT', sans-serif;}
